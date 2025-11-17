@@ -76,9 +76,12 @@ return [
     | by Laravel's translation / localization methods. This option can be
     | set to any locale for which you plan to have translation strings.
     |
+    | Default languages: RO (Romanian) and EN (English)
+    | Default locale: RO (Romanian)
+    |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'ro'),
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
