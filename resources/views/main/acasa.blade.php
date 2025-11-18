@@ -1,227 +1,165 @@
 @extends('main.layouts.master')
- 
+
 @section('body')
-<!-- REVOLUTION SLIDER -->
-        <div id="slider">
-          <div id="rev_slider_24_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="levano-restaurant-bar" style="background-color:transparent;padding:0px;">
-			
-					<div id="rev_slider_24_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
-						<ul>	<!-- SLIDE  -->
-						<!-- consecventa -->
-							<li data-index="rs-80" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="img/slider/consecventa3.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
-								<!-- MAIN IMAGE -->
-								<img src="{{URL::asset('assets/Site/Presentation/img/slider/consecventa3.jpg')}}"  alt=""  data-lazyload="{{URL::asset('assets/Site/Presentation/img/slider/consecventa3.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-								<!-- LAYERS -->
 
-								<!-- LAYER NR. 1 -->
-								<div class="tp-caption Restaurant-Display   tp-resizeme" 
-									 id="slide-80-layer-1" 
-									 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:5;"
-						 
-									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="500" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
+    <!-- REVOLUTION SLIDER -->
+    <div id="slider">
+        <div id="rev_slider_24_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="levano-restaurant-bar"
+            style="background-color:transparent;padding:0px;">
 
-									
-									style="z-index: 5; white-space: nowrap;"> Consecvența...
-								</div>
+            <div id="rev_slider_24_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
 
-								<!-- LAYER NR. 2 -->
-								<div class="tp-caption Restaurant-Cursive   tp-resizeme" 
-									 id="slide-80-layer-2" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:1;"
-						 
-									 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="700" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
+                <ul>
+                    <!-- consecventa -->
+                    <li data-index="rs-80" data-transition="fade" data-slotamount="7" data-easein="default"
+                        data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/consecventa3.jpg')}}"
+                        data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"
+                        data-saveperformance="off" data-title="Intro" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{URL::asset('assets/images/slider/consecventa3.jpg')}}" alt=""
+                            data-lazyload="{{URL::asset('assets/images/slider/consecventa3.jpg')}}"
+                            data-bgposition="center center" data-kenburns="on" data-duration="20000"
+                            data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0"
+                            data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
+                            data-no-retina>
+                        <!-- LAYERS -->
 
-									
-									style="z-index: 6; white-space: nowrap; line-height: 40px;">izvorâtă din experiență. 
-								</div>
-								<!-- Confidențialitate -->
-								<li data-index="rs-81" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="{{URL::asset('assets/Site/Presentation/img/slider/confidentialitate3.jpg')}}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
-								<!-- MAIN IMAGE -->
-								<img src="{{URL::asset('assets/Site/Presentation/img/slider/confidentialitate3.jpg')}}" alt=""  data-lazyload="{{URL::asset('assets/Site/Presentation/img/slider/confidentialitate3.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-								<!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Restaurant-Display   tp-resizeme" id="slide-80-layer-1"
+                            data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:5;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 5; white-space: nowrap;"> Consecvența...
+                        </div>
 
-								<!-- LAYER NR. 1 -->
-								<div class="tp-caption Restaurant-Display   tp-resizeme" 
-									 id="slide-81-layer-1" 
-									 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:5;"
-						 
-									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="500" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption Restaurant-Cursive   tp-resizeme" id="slide-80-layer-2"
+                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                            data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">izvorâtă din experiență.
+                        </div>
+                        <!-- Confidențialitate -->
+                    <li data-index="rs-81" data-transition="fade" data-slotamount="7" data-easein="default"
+                        data-easeout="default" data-masterspeed="1000"
+                        data-thumb="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}"
+                        data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"
+                        data-saveperformance="off" data-title="Intro" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}" alt=""
+                            data-lazyload="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}"
+                            data-bgposition="center center" data-kenburns="on" data-duration="20000"
+                            data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0"
+                            data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
+                            data-no-retina>
+                        <!-- LAYERS -->
 
-									
-									style="z-index: 5; white-space: nowrap;">Confidențialitate ... 
-								</div>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Restaurant-Display   tp-resizeme" id="slide-81-layer-1"
+                            data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:5;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 5; white-space: nowrap;">Confidențialitate ...
+                        </div>
 
-								<!-- LAYER NR. 2 -->
-								<div class="tp-caption Restaurant-Cursive   tp-resizeme" 
-									 id="slide-81-layer-2" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:1;"
-						 
-									 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="700" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption Restaurant-Cursive   tp-resizeme" id="slide-81-layer-2"
+                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                            data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">axată pe apărarea intereselor
+                            clientului.
+                        </div>
+                        <!-- Inovare -->
+                    <li data-index="rs-82" data-transition="fade" data-slotamount="7" data-easein="default"
+                        data-easeout="default" data-masterspeed="1000"
+                        data-thumb="{{URL::asset('assets/images/slider/inovare3.jpg')}}" data-rotate="0"
+                        data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
+                        data-title="Intro" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{URL::asset('assets/images/slider/inovare3.jpg')}}" alt=""
+                            data-lazyload="{{URL::asset('assets/images/slider/inovare3.jpg')}}"
+                            data-bgposition="center center" data-kenburns="on" data-duration="20000"
+                            data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0"
+                            data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
+                            data-no-retina>
+                        <!-- LAYERS -->
 
-									
-									style="z-index: 6; white-space: nowrap; line-height: 40px;">axată pe apărarea intereselor clientului.
-								</div>
-								<!-- Inovare -->
-								<li data-index="rs-82" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="{{URL::asset('assets/Site/Presentation/img/slider/inovare3.jpg')}}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
-								<!-- MAIN IMAGE -->
-								<img src="{{URL::asset('assets/Site/Presentation/img/slider/inovare3.jpg')}}"  alt=""  data-lazyload="{{URL::asset('assets/Site/Presentation/img/slider/inovare3.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-								<!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Restaurant-Display   tp-resizeme" id="slide-82-layer-1"
+                            data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:5;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 5; white-space: nowrap;">Inovare ...
+                        </div>
 
-								<!-- LAYER NR. 1 -->
-								<div class="tp-caption Restaurant-Display   tp-resizeme" 
-									 id="slide-82-layer-1" 
-									 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:5;"
-						 
-									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="500" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption Restaurant-Cursive   tp-resizeme" id="slide-82-layer-2"
+                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                            data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">fondată pe necesități înțelese.
+                        </div>
+                    <li data-index="rs-83" data-transition="fade" data-slotamount="7" data-easein="default"
+                        data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
+                        data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
+                        data-title="Intro" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{URL::asset('assets/images/slider/calitate4.jpg')}}" alt=""
+                            data-lazyload="{{URL::asset('assets/images/slider/calitate4.jpg')}}"
+                            data-bgposition="center center" data-kenburns="on" data-duration="20000"
+                            data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0"
+                            data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
+                            data-no-retina>
+                        <!-- LAYERS -->
 
-									
-									style="z-index: 5; white-space: nowrap;">Inovare ... 
-								</div>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Restaurant-Display   tp-resizeme" id="slide-83-layer-1"
+                            data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:5;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 5; white-space: nowrap;">Calitatea ...
+                        </div>
 
-								<!-- LAYER NR. 2 -->
-								<div class="tp-caption Restaurant-Cursive   tp-resizeme" 
-									 id="slide-82-layer-2" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:1;"
-						 
-									 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="700" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption Restaurant-Cursive   tp-resizeme" id="slide-83-layer-2"
+                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                            data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                            data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">ca tradiție.
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 
-									
-									style="z-index: 6; white-space: nowrap; line-height: 40px;">fondată pe necesități înțelese.
-								</div>
-								<li data-index="rs-83" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="img/slider/calitate4.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
-								<!-- MAIN IMAGE -->
-								<img src="{{URL::asset('assets/Site/Presentation/img/slider/calitate4.jpg')}}"  alt=""  data-lazyload="{{URL::asset('assets/Site/Presentation/img/slider/calitate4.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-								<!-- LAYERS -->
-
-								<!-- LAYER NR. 1 -->
-								<div class="tp-caption Restaurant-Display   tp-resizeme" 
-									 id="slide-83-layer-1" 
-									 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:5;"
-						 
-									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="500" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
-
-									
-									style="z-index: 5; white-space: nowrap;">Calitatea ...
-								</div>
-
-								<!-- LAYER NR. 2 -->
-								<div class="tp-caption Restaurant-Cursive   tp-resizeme" 
-									 id="slide-83-layer-2" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']" 
-												data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_idle="o:1;"
-						 
-									 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="opacity:0;s:1000;s:1000;" 
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-									data-start="700" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
-
-									
-									style="z-index: 6; white-space: nowrap; line-height: 40px;">ca tradiție. 
-								</div>
-
-								
-								
-							</li>
-						</uL>
-						<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
-					</div>
-				</div><!-- END REVOLUTION SLIDER -->
-				
-				
-				
+            </div>
         </div>
-        <!-- END REVOLUTION SLIDER -->
-
-
-
-
-
-
-
+    </div>
+    <!-- END REVOLUTION SLIDER -->
 
     <section>
         <div class="container">
@@ -233,10 +171,9 @@
                 <div class="row" data-lightbox-type="gallery">
                     <div class="col  portfolio-item design artwork" style="width: 16%">
                         <div class="portfolio-image effect social-links">
-                            <img src="{{URL::asset('assets/Site/Presentation/img/Logo_B_Contab_2017_m.png')}}" alt="">
+                            <img src="{{URL::asset('assets/images/our-services/Logo_B_Contab_2017_m.png')}}" alt="">
                             <div class="image-box-content">
                                 <p>
-
                                     <a href="contabilitate"><i class="fa fa-link"></i></a>
                                 </p>
                             </div>
@@ -245,7 +182,7 @@
 
                     <div class=" col  portfolio-item design beauty" style="width: 16%">
                         <div class="portfolio-image effect social-links">
-                            <img src="{{URL::asset('assets/Site/Presentation/img/Logo_B_Taxe_2017_m.png')}}" alt="">
+                            <img src="{{URL::asset('assets/images/our-services/Logo_B_Taxe_2017_m.png')}}" alt="">
                             <div class="image-box-content">
                                 <p>
 
@@ -258,7 +195,7 @@
 
                     <div class=" col portfolio-item design beauty" style="width: 16%">
                         <div class="portfolio-image effect social-links">
-                            <img src="{{URL::asset('assets/Site/Presentation/img/Logo_B_Audit_2017_m.png')}}" alt="">
+                            <img src="{{URL::asset('assets/images/our-services/Logo_B_Audit_2017_m.png')}}" alt="">
                             <div class="image-box-content">
                                 <p>
 
@@ -271,10 +208,9 @@
 
                     <div class="col  portfolio-item design artwork" style="width: 16%">
                         <div class="portfolio-image effect social-links">
-                            <img src="{{URL::asset('assets/Site/Presentation/img/Logo_B_Expatriati_2017_m.png')}}" alt="">
+                            <img src="{{URL::asset('assets/images/our-services/Logo_B_Expatriati_2017_m.png')}}" alt="">
                             <div class="image-box-content">
                                 <p>
-
                                     <a href="expatriati"><i class="fa fa-link"></i></a>
                                 </p>
                             </div>
@@ -284,10 +220,9 @@
 
                     <div class=" col portfolio-item design artwork" style="width: 16%">
                         <div class="portfolio-image effect social-links">
-                            <img src="{{URL::asset('assets/Site/Presentation/img/Logo_B_Salar_2017_m.png')}}" alt="">
+                            <img src="{{URL::asset('assets/images/our-services/Logo_B_Salar_2017_m.png')}}" alt="">
                             <div class="image-box-content">
                                 <p>
-
                                     <a href="salarizare"><i class="fa fa-link"></i></a>
                                 </p>
                             </div>
@@ -295,33 +230,21 @@
 
                     </div>
 
-		<div class=" col portfolio-item design artwork" style="width: 16%">
+                    <div class=" col portfolio-item design artwork" style="width: 16%">
                         <div class="portfolio-image effect social-links">
-                            <img src="{{URL::asset('assets/Site/Presentation/img/07_import_forta_de_munca.png')}}" alt="">
+                            <img src="{{URL::asset('assets/images/our-services/07_import_forta_de_munca.png')}}" alt="">
                             <div class="image-box-content">
                                 <p>
-
                                     <a href="importfm"><i class="fa fa-link"></i></a>
                                 </p>
                             </div>
                         </div>
-
                     </div>
-
-
-      
-
-                    
 
                 </div>
             </div>
             <!--END: Portfolio Carousel -->
         </div>
-
-
-
-
-
         <!--Default counters-->
         <div class="hr-title hr-long center"><abbr>Contabilizăm cifre importante</abbr> </div>
         <div class="row">
@@ -330,7 +253,9 @@
                     <div class="icon"> <a href="#"><i class="fa fa-users"></i></a> </div>
                     <div class="counter">
 
-                        <span data-speed="3000" data-refresh-interval="10" data-to=   {{$numar1 = DB::table('numbers') ->first() ->clienti_multumiti}} data-from="0" id="clienti_multumiti"></span>
+                        <span data-speed="3000" data-refresh-interval="10"
+                            data-to={{$numar1 = DB::table('numbers')->first()->clienti_multumiti}} data-from="0"
+                            id="clienti_multumiti"></span>
                     </div>
                     <h6>Clienți mulțumiți </h6>
                     <p>de la înființare până în prezent </p>
@@ -339,7 +264,9 @@
             <div class="col-md-4">
                 <div class="icon-box effect center clean">
                     <div class="icon"> <a href="#"><i class="fa fa-calendar"></i></a> </div>
-                    <div class="counter"> <span data-speed="1500" data-refresh-interval="50" data-to=  {{$numar1 = DB::table('numbers') ->first() ->numar_declaratii}} data-from="0" data-seperator="true" id="declaratii"></span> </div>
+                    <div class="counter"> <span data-speed="1500" data-refresh-interval="50"
+                            data-to={{$numar1 = DB::table('numbers')->first()->numar_declaratii}} data-from="0"
+                            data-seperator="true" id="declaratii"></span> </div>
                     <h6>Declarații fiscale </h6>
                     <p>elaborate de la începutul anului </p>
                 </div>
@@ -347,7 +274,9 @@
             <div class="col-md-4">
                 <div class="icon-box effect center clean">
                     <div class="icon"> <a href="#"><i class="fa fa-clock-o"></i></a> </div>
-                    <div class="counter"> <span data-speed="2500" data-refresh-interval="50" data-to={{$numar1 = DB::table('numbers') ->first() ->numar_emailuri}} data-from="0" data-seperator="true" id="emailuri"></span> </div>
+                    <div class="counter"> <span data-speed="2500" data-refresh-interval="50"
+                            data-to={{$numar1 = DB::table('numbers')->first()->numar_emailuri}} data-from="0"
+                            data-seperator="true" id="emailuri"></span> </div>
                     <h6>E-mailuri expediate clienților noștri </h6>
                     <p>de la începutul anului </p>
                 </div>
@@ -358,52 +287,58 @@
 
     <!--Start of Tawk.to Script-->
     <!--<script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/596382d01dc79b329518d81f/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
+                var Tawk_API = Tawk_API || {},
+                    Tawk_LoadStart = new Date();
+                (function() {
+                    var s1 = document.createElement("script"),
+                        s0 = document.getElementsByTagName("script")[0];
+                    s1.async = true;
+                    s1.src = 'https://embed.tawk.to/596382d01dc79b329518d81f/default';
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
+                })();
 
-    </script>-->
+            </script>-->
 
     <!--End of Tawk.to Script-->
 
-     <script type="text/javascript">
- $.easyNotify({
-          dev: false,
-          bgImage: '',
-          iconSrc: '/assets/Site/Presentation/img/soterlogonour_2.png',
-          iconWidth: 48,
-          iconHeight: 48,
-          content: 'Folosim module cookie doar pentru securitatea dumneavoastră și pentru o experiență de navigare fluidă.'+ "<br/>"+ "<strong>"+
-	  'Nu folosim module cookie sau tehnologii similare în alte scopuri și nu distribuim rezultatele!'+ "</strong>" + "<br/>"+
-	  'Continuarea navigării înseamnă acceptul dumneavoastră! ',
-          moreLinkText: 'Despre cookie...',
-          moreLinkHref: 'https://ec.europa.eu/info/cookies_ro',
-          acceptBtnHide: false,
-          position: 'bottom-right',
-          animationNameIn: 'easyNotifyIn',
-         animationNameOut: 'easyNotifyOut',
+    <script type="text/javascript">
+        $.easyNotify({
+            dev: false,
+            bgImage: '',
+            iconSrc: '/assets/images/logo.png',
+            iconWidth: 48,
+            iconHeight: 48,
+            content: 'Folosim module cookie doar pentru securitatea dumneavoastră și pentru o experiență de navigare fluidă.' + "<br/>" + "<strong>" +
+                'Nu folosim module cookie sau tehnologii similare în alte scopuri și nu distribuim rezultatele!' + "</strong>" + "<br/>" +
+                'Continuarea navigării înseamnă acceptul dumneavoastră! ',
+            moreLinkText: 'Despre cookie...',
+            moreLinkHref: 'https://ec.europa.eu/info/cookies_ro',
+            acceptBtnHide: false,
+            position: 'bottom-right',
+            animationNameIn: 'easyNotifyIn',
+            animationNameOut: 'easyNotifyOut',
         });
-</script>
-
+    </script>
 
     <script type="text/javascript">
         var tpj = jQuery;
         var revapi24;
-        tpj(document).ready(function() {
+        tpj(document).ready(function () {
+            console.log("Initializing Revolution Slider...");
+            console.log("jsFileLocation will be: {{asset('assets/js/')}}");
+            console.log("Extensions path will be: {{asset('assets/js/')}}revolutionextensions/");
+            
             if (tpj("#rev_slider_24_1").revolution == undefined) {
-                revslider_showDoubleJqueryError("#rev_slider_24_1");
+                console.error("Revolution Slider plugin is not loaded!");
+                tpj("#rev_slider_24_1").html('<div style="margin:auto;line-height:40px;font-size:14px;color:#fff;padding:15px;background:#e74c3c;margin:20px 0px;">Error: Revolution Slider plugin is not loaded. Please check if all required JavaScript files are included.</div>').show();
             } else {
+                console.log("Revolution Slider plugin found, initializing...");
                 revapi24 = tpj("#rev_slider_24_1").show().revolution({
                     sliderType: "standard",
-                    jsFileLocation: "/assets/Site/Presentation/vendor/rs-plugin/js/",
+                    jsFileLocation: "{{asset('assets/js/')}}",
+                    extensions: "/revolutionextensions/",
                     sliderLayout: "fullscreen",
                     dottedOverlay: "none",
                     delay: 4000,
@@ -481,21 +416,26 @@
                     hideSliderAtLimit: 0,
                     hideCaptionAtLimit: 0,
                     hideAllCaptionAtLilmit: 0,
-                    debugMode: false,
+                    debugMode: true,
                     fallbacks: {
                         simplifyAll: "off",
                         nextSlideOnWindowFocus: "off",
                         disableFocusListener: false,
                     }
                 });
+                
+                // Check if slider initialized successfully
+                if (revapi24) {
+                    console.log("Revolution Slider initialized successfully!");
+                    tpj("#rev_slider_24_1").on("revolution.slide.onloaded", function() {
+                        console.log("Slider slide loaded!");
+                    });
+                } else {
+                    console.error("Failed to initialize Revolution Slider!");
+                }
             }
         }); /*ready*/
 
     </script>
 
 @endsection
-
-
-
-
-
