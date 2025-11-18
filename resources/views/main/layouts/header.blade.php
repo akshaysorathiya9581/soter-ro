@@ -52,18 +52,17 @@
                                     <li><a href="@lang('payroll')">@lang('web.salarizare_menu')</a></li>
                                     <li><a href="@lang('expat')">@lang('web.expatriati_menu')</a></li>
                                     <li><a href="@lang('audit')">@lang('web.audit_menu')</a></li>
-                                    <li><a href="@lang('taxe')">@lang('web.taxe_menu')</a></li>
-                                    <li><a href="@lang('importfm')">@lang('web.importfm_menu')</a></li>
-                                    <li><a href="@lang('e-transport')">@lang('web.transport_consultanta_menu')</a>
-                                    </li>
+                                    <li><a href="@lang('tax')">@lang('web.taxe_menu')</a></li>
+                                    <li><a href="@lang('workforce')">@lang('web.importfm_menu')</a></li>
+                                    <li><a href="@lang('e-transporten')">@lang('web.transport_consultanta_menu')</a></li>
                                 </ul>
                             </li>
 
                             <li class="dropdown"><a href="#">@lang('web.cariere_menu') <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li> <a href="@lang('route.povesti')">@lang('web.povesti_menu')</a></li>
-                                    <li> <a href="@lang('route.cariere')">@lang('web.cariere_menu')</a></li>
+                                    <li> <a href="@lang('stories')">@lang('web.povesti_menu')</a></li>
+                                    <li> <a href="@lang('careers')">@lang('web.cariere_menu')</a></li>
                                 </ul>
                             </li>
 
@@ -85,22 +84,22 @@
                                 <a href="#">@lang('web.politici_menu') <i class="fa fa-angle-down"></i> </a>
 
                                 <ul class="dropdown-menu">
-                                    <li> <a href="@lang('route.gdpr')">@lang('web.gdpr_menu')</a></li>
+                                    <li> <a href="@lang('gdpren')">@lang('web.gdpr_menu')</a></li>
                                     <li class="dropdown-submenu"><a
                                             href="@lang('route.politica')">@lang('web.politica_conf_menu')</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="@lang('route.dezvaluire')">@lang('web.dezvaluire_menu')</a>
+                                            <li><a href="@lang('disclosure')">@lang('web.dezvaluire_menu')</a>
                                             </li>
                                             <li><a
-                                                    href="@lang('route.subcontractanti')">@lang('web.subcontractanti_menu')</a>
+                                                    href="@lang('subcontractor')">@lang('web.subcontractanti_menu')</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="@lang('route.comunicare-fact')">@lang('web.comun_fact_menu') </a></li>
+                                    <li><a href="@lang('invoices')">@lang('web.comun_fact_menu') </a></li>
                                 </ul>
                             </li>
 
-                            <li> <a href="@lang('route.contact')">@lang('web.contact_menu')</a></li>
+                            <li> <a href="@lang('contactus')">@lang('web.contact_menu')</a></li>
 
                             <li class="dropdown"> 
                                 <a href="#">

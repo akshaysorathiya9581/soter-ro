@@ -64,20 +64,49 @@ Route::group([
         return view('main.services.audit');
     })->name('audit');
     
-    // Route::get('/history', function () {
-    //     return view('main.services.history');
-    // })->name('history');
+    Route::get('/tax', function () {
+        return view('main.services.tax');
+    })->name('tax');
     
-    // Route::get('/history', function () {
-    //     return view('main.services.history');
-    // })->name('history');
+    Route::get('/workforce', function () {
+        return view('main.services.workforce');
+    })->name('workforce');
     
-    // Route::get('/history', function () {
-    //     return view('main.services.history');
-    // })->name('history');
+    Route::get('/e-transporten', function () {
+        return view('main.services.e-transporten');
+    })->name('e-transporten');
 
+    Route::get('/stories', function () {
+        return view('main.careers.stories');
+    })->name('stories');
+
+    Route::get('/careers', function () {
+        return view('main.careers.careers');
+    })->name('careers');
+
+    // Policy Routes
+    Route::get('/gdpren', function () {
+        return view('main.policies.gdpren');
+    })->name('gdpren');
+
+    Route::get('/disclosure', function () {
+        return view('main.policies.disclosure');
+    })->name('disclosure');
+
+    Route::get('/subcontractor', function () {
+        return view('main.policies.subcontractor');
+    })->name('subcontractor');
+
+    Route::get('/invoices', function () {
+        return view('main.policies.invoices');
+    })->name('invoices');
+
+    Route::get('/contactus', function () {
+        return view('main.contactus');
+    })->name('contactus');
+    
     // Route::get('/history', function () {
-    //     return view('main.services.history');
+    //     return view('main.careers.history');
     // })->name('history');
     
 });
