@@ -24,33 +24,37 @@
                             <li class="dropdown"> <a href="#">@lang('web.despre_menu')<i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="@lang('route.echipa')">@lang('web.echipa_menu')</a></li>
-                                    <li><a href="@lang('route.premii')">@lang('web.premii_menu')</a></li>
-                                    <li><a href="@lang('route.istoric')">@lang('web.istoric_menu')</a></li>
-                                    <li class="dropdown-submenu"><a
-                                            href="@lang('route.grup')">@lang('web.grup_menu')</a>
+                                    <li><a href="@lang('team')">@lang('web.echipa_menu')</a></li>
+                                    <li><a href="@lang('awards')">@lang('web.premii_menu')</a></li>
+                                    <li><a href="@lang('history')">@lang('web.istoric_menu')</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a href="@lang('route.grup')">@lang('web.grup_menu')</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="@lang('route.divizare2025')">@lang('web.divizare2025_menu')</a>
+                                            <li>
+                                                <a href="@lang('division')">@lang('web.divizare2025_menu')</a>
                                             </li>
-                                            <li><a href="@lang('route.componenta')">@lang('web.componenta_menu')</a>
+                                            <li>
+                                                <a href="@lang('compound_f')">@lang('web.componenta_menu')</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <!--<li><a href="@lang('route.grup')">@lang('web.grup_menu')</a></li>-->
-                                    <li><a href="@lang('route.parteneriate')">@lang('web.parteneriate_menu')</a></li>
+                                    <li><a href="@lang('partnerships')">@lang('web.parteneriate_menu')</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"> <a href="#">@lang('web.servicii_menu')<i class="fa fa-angle-down"></i>
+                            <li class="dropdown"> 
+                                <a href="#">
+                                    @lang('web.servicii_menu')<i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="@lang('route.ateliere')">@lang('web.ateliere_menu')</a></li>
-                                    <li><a href="@lang('route.contabilitate')">@lang('web.contabilitate_menu')</a></li>
-                                    <li><a href="@lang('route.salarizare')">@lang('web.salarizare_menu')</a></li>
-                                    <li><a href="@lang('route.expatriati')">@lang('web.expatriati_menu')</a></li>
-                                    <li><a href="@lang('route.audit')">@lang('web.audit_menu')</a></li>
-                                    <li><a href="@lang('route.taxe')">@lang('web.taxe_menu')</a></li>
-                                    <li><a href="@lang('route.importfm')">@lang('web.importfm_menu')</a></li>
-                                    <li><a href="@lang('route.e-transport')">@lang('web.transport_consultanta_menu')</a>
+                                    <li><a href="@lang('workshops')">@lang('web.ateliere_menu')</a></li>
+                                    <li><a href="@lang('accounting')">@lang('web.contabilitate_menu')</a></li>
+                                    <li><a href="@lang('payroll')">@lang('web.salarizare_menu')</a></li>
+                                    <li><a href="@lang('expat')">@lang('web.expatriati_menu')</a></li>
+                                    <li><a href="@lang('audit')">@lang('web.audit_menu')</a></li>
+                                    <li><a href="@lang('taxe')">@lang('web.taxe_menu')</a></li>
+                                    <li><a href="@lang('importfm')">@lang('web.importfm_menu')</a></li>
+                                    <li><a href="@lang('e-transport')">@lang('web.transport_consultanta_menu')</a>
                                     </li>
                                 </ul>
                             </li>
@@ -98,7 +102,9 @@
 
                             <li> <a href="@lang('route.contact')">@lang('web.contact_menu')</a></li>
 
-                            <li class="dropdown"> <a href="#"><i class="fa fa-flag"></i>
+                            <li class="dropdown"> 
+                                <a href="#">
+                                    <i class="fa fa-flag"></i>
                                     @if (LaravelLocalization::getCurrentLocale() == 'ro')
                                         RO
                                     @else
