@@ -40,24 +40,44 @@ Route::group([
         return view('main.about.partnerships');
     })->name('partnerships');
     
+    Route::get('/workshops', function () {
+        return view('main.services.workshops');
+    })->name('workshops');
+    
+    Route::get('/atelier-consultanta', function () {
+        return view('main.services.atelier-consultanta');
+    })->name('atelier-consultanta');
+    
+    Route::get('/accounting', function () {
+        return view('main.services.accounting');
+    })->name('accounting');
+    
+    Route::get('/payroll', function () {
+        return view('main.services.payroll');
+    })->name('payroll');
+    
+    Route::get('/expat', function () {
+        return view('main.services.expat');
+    })->name('expat');
+    
+    Route::get('/audit', function () {
+        return view('main.services.audit');
+    })->name('audit');
+    
     // Route::get('/history', function () {
-    //     return view('main.about.history');
+    //     return view('main.services.history');
     // })->name('history');
     
     // Route::get('/history', function () {
-    //     return view('main.about.history');
+    //     return view('main.services.history');
     // })->name('history');
     
     // Route::get('/history', function () {
-    //     return view('main.about.history');
+    //     return view('main.services.history');
     // })->name('history');
-    
+
     // Route::get('/history', function () {
-    //     return view('main.about.history');
-    // })->name('history');
-    
-    // Route::get('/history', function () {
-    //     return view('main.about.history');
+    //     return view('main.services.history');
     // })->name('history');
     
 });

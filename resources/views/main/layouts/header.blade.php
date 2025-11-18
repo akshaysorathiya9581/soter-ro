@@ -47,14 +47,14 @@
                                     @lang('web.servicii_menu')<i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="@lang('route.ateliere')">@lang('web.ateliere_menu')</a></li>
-                                    <li><a href="@lang('route.contabilitate')">@lang('web.contabilitate_menu')</a></li>
-                                    <li><a href="@lang('route.salarizare')">@lang('web.salarizare_menu')</a></li>
-                                    <li><a href="@lang('route.expatriati')">@lang('web.expatriati_menu')</a></li>
-                                    <li><a href="@lang('route.audit')">@lang('web.audit_menu')</a></li>
-                                    <li><a href="@lang('route.taxe')">@lang('web.taxe_menu')</a></li>
-                                    <li><a href="@lang('route.importfm')">@lang('web.importfm_menu')</a></li>
-                                    <li><a href="@lang('route.e-transport')">@lang('web.transport_consultanta_menu')</a>
+                                    <li><a href="@lang('workshops')">@lang('web.ateliere_menu')</a></li>
+                                    <li><a href="@lang('accounting')">@lang('web.contabilitate_menu')</a></li>
+                                    <li><a href="@lang('payroll')">@lang('web.salarizare_menu')</a></li>
+                                    <li><a href="@lang('expat')">@lang('web.expatriati_menu')</a></li>
+                                    <li><a href="@lang('audit')">@lang('web.audit_menu')</a></li>
+                                    <li><a href="@lang('taxe')">@lang('web.taxe_menu')</a></li>
+                                    <li><a href="@lang('importfm')">@lang('web.importfm_menu')</a></li>
+                                    <li><a href="@lang('e-transport')">@lang('web.transport_consultanta_menu')</a>
                                     </li>
                                 </ul>
                             </li>
