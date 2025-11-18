@@ -15,7 +15,16 @@ Route::group([
     })->name('home');
 
     Route::get('/echipa', function () {
-        return view('main.echipa');
-    })->name('team');
+        return view('main.about.echipa');
+    })->name('echipa');
+
+    Route::get('/awards', function () {
+        return view('main.about.awards');
+    })->name('awards');
+
+    
+    Route::get('/history', function () {
+        return view('main.about.history');
+    })->name('history');
     
 });
