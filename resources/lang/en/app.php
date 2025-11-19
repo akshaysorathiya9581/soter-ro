@@ -6,5 +6,6 @@ return [
     'team' => 'Team',
     'services' => 'Services',
     'contact' => 'Contact',
+    '403_mesaj_buton_home' => 'Home',
 ];
 
