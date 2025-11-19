@@ -31,12 +31,12 @@
     <link href="{{URL::asset('assets/css/animate.min.css')}}" type="text/css" rel="stylesheet">
     <link href="{{URL::asset('assets/css/owl.carousel.css')}}" type="text/css" rel="stylesheet">
     <link href="{{URL::asset('assets/css/magnific-popup.css')}}" type="text/css" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/pe-icon-7-stroke.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/rs-plugin/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css')}}" type="text/css" rel="stylesheet">
     <link href="{{URL::asset('assets/css/theme-base.css')}}" type="text/css" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/rs/rs-plugin-styles.css')}}" type="text/css" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/rs/settings.css')}}" type="text/css" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/rs/layers.css')}}" type="text/css" rel="stylesheet">
-    <link href="{{URL::asset('assets/css/rs/navigation.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/rs-plugin-styles.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/rs-plugin/css/settings.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/rs-plugin/css/layers.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/rs-plugin/css/navigation.css')}}" type="text/css" rel="stylesheet">
     <link href="{{URL::asset('assets/css/theme-elements.css')}}" type="text/css" rel="stylesheet">
     <link href="{{URL::asset('assets/css/responsive.css')}}" type="text/css" rel="stylesheet">
     <link href="{{URL::asset('assets/css/custom.css')}}" type="text/css" rel="stylesheet">
@@ -47,14 +47,14 @@
     <link href="{{URL::asset('assets/css/base.css')}}" type="text/css" rel="stylesheet">
     <!-- JS -->
     <script type="text/javascript" src="{{URL::asset('assets/js/jquery-1.11.2.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/jquery.themepunch.tools.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/jquery.themepunch.revolution.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/revolutionextensions/revolution.extension.slideanims.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/revolutionextensions/revolution.extension.layeranimation.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/revolutionextensions/revolution.extension.kenburn.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/revolutionextensions/revolution.extension.navigation.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/js/revolutionextensions/revolution.extension.parallax.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/extensions/revolution.extension.parallax.min.js')}}"></script>
     <script type="text/javascript" src="{{URL::asset('assets/js/plugins-compressed.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
     <script type="text/javascript" src="{{URL::asset('assets/js/easy-notify.min.js')}}"></script>
 
 </head>

@@ -321,19 +321,12 @@
     var tpj = jQuery;
     var revapi24;
     tpj(document).ready(function () {
-        console.log("Initializing Revolution Slider...");
-        console.log("jsFileLocation will be: {{asset('assets/js/')}}");
-        console.log("Extensions path will be: {{asset('assets/js/')}}revolutionextensions/");
-        
         if (tpj("#rev_slider_24_1").revolution == undefined) {
-            console.error("Revolution Slider plugin is not loaded!");
-            tpj("#rev_slider_24_1").html('<div style="margin:auto;line-height:40px;font-size:14px;color:#fff;padding:15px;background:#e74c3c;margin:20px 0px;">Error: Revolution Slider plugin is not loaded. Please check if all required JavaScript files are included.</div>').show();
+            revslider_showDoubleJqueryError("#rev_slider_24_1");
         } else {
-            console.log("Revolution Slider plugin found, initializing...");
             revapi24 = tpj("#rev_slider_24_1").show().revolution({
                 sliderType: "standard",
-                jsFileLocation: "{{asset('assets/js/')}}",
-                extensions: "/revolutionextensions/",
+                jsFileLocation: "/assets/vendor/rs-plugin/js/",
                 sliderLayout: "fullscreen",
                 dottedOverlay: "none",
                 delay: 4000,
@@ -411,23 +404,13 @@
                 hideSliderAtLimit: 0,
                 hideCaptionAtLimit: 0,
                 hideAllCaptionAtLilmit: 0,
-                debugMode: true,
+                debugMode: false,
                 fallbacks: {
                     simplifyAll: "off",
                     nextSlideOnWindowFocus: "off",
                     disableFocusListener: false,
                 }
             });
-            
-            // Check if slider initialized successfully
-            if (revapi24) {
-                console.log("Revolution Slider initialized successfully!");
-                tpj("#rev_slider_24_1").on("revolution.slide.onloaded", function() {
-                    console.log("Slider slide loaded!");
-                });
-            } else {
-                console.error("Failed to initialize Revolution Slider!");
-            }
         }
     }); /*ready*/
 
