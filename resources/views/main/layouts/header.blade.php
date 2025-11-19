@@ -4,7 +4,7 @@
         <div class="container">
 
             <div id="logo">
-                <a href="@lang('route.acasa')" class="navbar-left"
+                <a href="{{ route('home') }}" class="navbar-left"
                     data-dark-logo="{{ URL::asset('assets/images/logo.png') }}">
                     <img class="fa" src="{{ URL::asset('assets/images/logo.png') }}" alt="Soter and Partners SRL">
                 </a>
@@ -20,7 +20,7 @@
                 <div class="container">
                     <nav id="mainMenu" class="main-menu mega-menu">
                         <ul class="main-menu nav nav-pills">
-                            <li><a href="@lang('route.acasa')">@lang('web.acasa_menu')</i></a></li>
+                            <li><a href="{{ route('home') }}">@lang('web.acasa_menu')</i></a></li>
                             <li class="dropdown"> <a href="#">@lang('web.despre_menu')<i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
