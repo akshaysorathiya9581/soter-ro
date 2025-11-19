@@ -198,11 +198,10 @@ var INSPIRO = {};
 
             var pageInAnimation = $body.attr('data-animation-in') || "fadeIn",
                 pageOutAnimation = $body.attr('data-animation-out') || "fadeOut",
-                pageLoaderStylePath = "images/svg-loaders/",
+                pageLoaderStylePath = "assets/images/svg-loaders/",
                 pageLoaderStyle = $body.attr('data-animation-icon') || "bars.svg",
                 pageInDuration = $body.attr('data-speed-in') || 1000,
                 pageOutDuration = $body.attr('data-speed-out') || 500;
-
             $wrapper.animsition({
                 inClass: pageInAnimation,
                 outClass: pageOutAnimation,

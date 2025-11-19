@@ -66,7 +66,7 @@
                                 </ul>
                             </li>
 
-                            <li> <a href="@lang('route.actualitate')">@lang('web.actualitate_menu')</a></li>
+                            <li><a href="@lang('actualitate')">@lang('web.actualitate_menu')</a></li>
 
                             <!--<li class="dropdown">
                                 <a href="#">@lang('web.proiecte_menu') <i class="fa fa-angle-down"></i> </a>

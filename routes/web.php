@@ -105,8 +105,53 @@ Route::group([
         return view('main.contactus');
     })->name('contactus');
     
-    // Route::get('/history', function () {
-    //     return view('main.careers.history');
-    // })->name('history');
+    // News Route
+    Route::get('/actualitate', function () {
+        return view('main.news.actualitate');
+    })->name('actualitate');
+
+    Route::get('/blog01', function () {
+        return view('main.news.blog01');
+    })->name('blog01');
+
+    Route::get('/blog01', function () {
+        return view('main.news.blog01');
+    })->name('blog01');
+
+    Route::get('/blog02', function () {
+        return view('main.news.blog02');
+    })->name('blog02');
+
+    Route::get('/blog03', function () {
+        return view('main.news.blog03');
+    })->name('blog03');
+
+    Route::get('/blog05', function () {
+        return view('main.news.blog05');
+    })->name('blog05');
+
+    Route::get('/blog06', function () {
+        return view('main.news.blog06');
+    })->name('blog06');
+
+    Route::get('/blog07', function () {
+        return view('main.news.blog07');
+    })->name('blog07');
+
+    Route::get('/blog08', function () {
+        return view('main.news.blog08');
+    })->name('blog08');
+
+    Route::get('/blog09', function () {
+        return view('main.news.blog09');
+    })->name('blog09');
+
+    // Route::get('/actualitate', function () {
+    //     return view('main.news.actualitate');
+    // })->name('actualitate');
+
+    // Route::get('/actualitate', function () {
+    //     return view('main.news.actualitate');
+    // })->name('actualitate');
     
 });
