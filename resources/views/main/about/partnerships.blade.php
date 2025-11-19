@@ -6,7 +6,7 @@
     <section class="">
         <div class="container">
             <div class="row">
-                <div class="hr-title hr-long center"><abbr>Parteneriate</abbr> </div>
+                <div class="hr-title hr-long center"><abbr>@lang('web.partnerships_title')</abbr> </div>
                 <div class="col-md-12">
 
                     <!--<div class="col-md-6">
@@ -21,7 +21,7 @@
                             <hr class="space-xmedium m-r-20">
                         </div>-->
                     <div class="col-md-6">
-                        <h2 class="p-t-10">Beginig with 2019 <br /> Soter & Partners is a partener with <a
+                        <h2 class="p-t-10">@lang('web.partnerships_iflow_title') <br /> <a
                                 href="https://iflow.ro/" target="_blank">iFlow</a>.</h2>
                     </div>
 
@@ -29,21 +29,21 @@
                         <a href="https://iflow.ro/" target="_blank"> <img height="68%" width="68%"
                                 src="{{URL::asset('assets/images/presentation/iflow.png')}}" alt=""></a>
                         <a href="@lang('route.iflow')">
-                            <h5 class="ac-title" align="right"> more...</h5>
+                            <h5 class="ac-title" align="right">@lang('web.partnerships_iflow_more')</h5>
                         </a>
                     </div>
                     <div class="row">
                         <hr class="space-xmedium m-r-20">
                     </div>
                     <div class="col-md-6">
-                        <h2 class="p-t-10">Beginig with 16.03.2023 <br /> Soter & Partners is a partener with <a
+                        <h2 class="p-t-10">@lang('web.partnerships_consiergo_title') <br /> <a
                                 href="https://consiergo.ro/" target="_blank">Consiergo</a>.</h2>
                     </div>
                     <div class="col-md-6" align="center">
                         <a href="https://consiergo.ro/" target="_blank"> <img height="68%" width="68%"
                                 src="{{URL::asset('assets/images/presentation/logo-auriu-site-1.png')}}" alt=""></a>
                         <a href="@lang('route.consiergo')">
-                            <h5 class="ac-title" align="right"> mai mult ...</h5>
+                            <h5 class="ac-title" align="right">@lang('web.partnerships_consiergo_more')</h5>
                         </a>
                     </div>
                     <div class="row">

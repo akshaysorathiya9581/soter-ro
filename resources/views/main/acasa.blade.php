@@ -32,7 +32,7 @@
                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 5; white-space: nowrap;"> Consecvența...
+                            style="z-index: 5; white-space: nowrap;"> @lang('web.home_slider_consistency')
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -43,7 +43,7 @@
                             data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 6; white-space: nowrap; line-height: 40px;">izvorâtă din experiență.
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_consistency_desc')
                         </div>
                         <!-- Confidențialitate -->
                     <li data-index="rs-81" data-transition="fade" data-slotamount="7" data-easein="default"
@@ -68,7 +68,7 @@
                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 5; white-space: nowrap;">Confidențialitate ...
+                            style="z-index: 5; white-space: nowrap;">@lang('web.home_slider_confidentiality')
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -79,8 +79,7 @@
                             data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 6; white-space: nowrap; line-height: 40px;">axată pe apărarea intereselor
-                            clientului.
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_confidentiality_desc')
                         </div>
                         <!-- Inovare -->
                     <li data-index="rs-82" data-transition="fade" data-slotamount="7" data-easein="default"
@@ -105,7 +104,7 @@
                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 5; white-space: nowrap;">Inovare ...
+                            style="z-index: 5; white-space: nowrap;">@lang('web.home_slider_innovation')
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -116,7 +115,7 @@
                             data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 6; white-space: nowrap; line-height: 40px;">fondată pe necesități înțelese.
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_innovation_desc')
                         </div>
                     <li data-index="rs-83" data-transition="fade" data-slotamount="7" data-easein="default"
                         data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
@@ -139,7 +138,7 @@
                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 5; white-space: nowrap;">Calitatea ...
+                            style="z-index: 5; white-space: nowrap;">@lang('web.home_slider_quality')
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -150,7 +149,7 @@
                             data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                             data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                             data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                            style="z-index: 6; white-space: nowrap; line-height: 40px;">ca tradiție.
+                            style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_quality_desc')
                         </div>
                     </li>
                 </ul>
@@ -164,7 +163,7 @@
     <section>
         <div class="container">
             <div class="hr-title hr-long center ">
-                <abbr>Serviciile noastre</abbr>
+                <abbr>@lang('web.home_our_services')</abbr>
             </div>
             <!--Portfolio Carousel -->
             <div class="center carousel portfolio-basic-image" data-carousel-col="1">
@@ -246,7 +245,7 @@
             <!--END: Portfolio Carousel -->
         </div>
         <!--Default counters-->
-        <div class="hr-title hr-long center"><abbr>Contabilizăm cifre importante</abbr> </div>
+        <div class="hr-title hr-long center"><abbr>@lang('web.home_we_account_numbers')</abbr> </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="icon-box effect center clean">
@@ -257,8 +256,8 @@
                             data-to={{$numar1 = DB::table('numbers')->first()->clienti_multumiti}} data-from="0"
                             id="clienti_multumiti"></span>
                     </div>
-                    <h6>Clienți mulțumiți </h6>
-                    <p>de la înființare până în prezent </p>
+                    <h6>@lang('web.home_satisfied_clients')</h6>
+                    <p>@lang('web.home_satisfied_clients_desc')</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -267,8 +266,8 @@
                     <div class="counter"> <span data-speed="1500" data-refresh-interval="50"
                             data-to={{$numar1 = DB::table('numbers')->first()->numar_declaratii}} data-from="0"
                             data-seperator="true" id="declaratii"></span> </div>
-                    <h6>Declarații fiscale </h6>
-                    <p>elaborate de la începutul anului </p>
+                    <h6>@lang('web.home_fiscal_declarations')</h6>
+                    <p>@lang('web.home_fiscal_declarations_desc')</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -277,8 +276,8 @@
                     <div class="counter"> <span data-speed="2500" data-refresh-interval="50"
                             data-to={{$numar1 = DB::table('numbers')->first()->numar_emailuri}} data-from="0"
                             data-seperator="true" id="emailuri"></span> </div>
-                    <h6>E-mailuri expediate clienților noștri </h6>
-                    <p>de la începutul anului </p>
+                    <h6>@lang('web.home_emails_sent')</h6>
+                    <p>@lang('web.home_emails_sent_desc')</p>
                 </div>
             </div>
         </div>
@@ -310,10 +309,10 @@
             iconSrc: '/assets/images/logo.png',
             iconWidth: 48,
             iconHeight: 48,
-            content: 'Folosim module cookie doar pentru securitatea dumneavoastră și pentru o experiență de navigare fluidă.' + "<br/>" + "<strong>" +
-                'Nu folosim module cookie sau tehnologii similare în alte scopuri și nu distribuim rezultatele!' + "</strong>" + "<br/>" +
-                'Continuarea navigării înseamnă acceptul dumneavoastră! ',
-            moreLinkText: 'Despre cookie...',
+            content: '{!! trans('web.cookie_message') !!}' + "<br/>" + "<strong>" +
+                '{!! trans('web.cookie_no_distribute') !!}' + "</strong>" + "<br/>" +
+                '{!! trans('web.cookie_accept') !!}',
+            moreLinkText: '{!! trans('web.cookie_more_info') !!}',
             moreLinkHref: 'https://ec.europa.eu/info/cookies_ro',
             acceptBtnHide: false,
             position: 'bottom-right',

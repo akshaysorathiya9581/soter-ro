@@ -2,7 +2,7 @@
 
 @section('body')
 
-    <div class="hr-title hr-long center"><abbr>Premii</abbr> </div>
+    <div class="hr-title hr-long center"><abbr>@lang('web.awards_title')</abbr> </div>
     <!-- SECTION -->
     <section>
         <div class="container portfolio">

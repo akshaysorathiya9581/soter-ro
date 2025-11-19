@@ -31,10 +31,10 @@
                             <ul class="list">
 
                                 <li>
-                                    <h4>Mihaela Rișco-Martin</h4>
+                                    <h4>@lang('web.accounting_mihaela_name')</h4>
                                 </li>
                                 <li><span>
-                                        <e>Accounting Partner
+                                        <e>@lang('web.accounting_partner')
                                     </span></li>
                             </ul>
                         </div>
@@ -42,11 +42,7 @@
 
                     <div class="portfolio-client-description">
                         <p style="text-align:justify">
-                            Small and medium customers, large and very large customers with complex transactions, they all
-                            entrust us the task of dealing with this delicate part of their business, imposed as mandatory
-                            by state authorities.</br>
-                            We base our success both on our customer’s trust, built through our understanding of their local
-                            and regional needs, as well as on the quality and effectiveness of all our delivered services.
+                            @lang('web.accounting_description_full')
                         </p>
                     </div>
                     <div class="heading-title-simple heading-title-border-bottom"></div>
@@ -71,57 +67,47 @@
         </div>
         <div class="accordion toggle clean color-border-bottom col-md-8 col-md-offset-2">
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>1. We offer you services regarding the accounting
-                    evidence: </h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section1_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-                    <i class="fa fa-tag"></i> Accrual accounting evidence <br>
-                    <i class="fa fa-tag"></i> Making accounting entries based on the financial documents using double entry
-                    system<br>
-                    <i class="fa fa-tag"></i> Accounting notes for all financial documents received from the Beneficiary<br>
-                    <i class="fa fa-tag"></i> Calculation of accounting depreciation<br>
-                    <i class="fa fa-tag"></i> Calculation of fiscal depreciation<br>
-                    <i class="fa fa-tag"></i> Calculation of capital assets adjustments<br>
-                    <i class="fa fa-tag"></i> Analytical trial balances with four series of equalities<br>
-                    <i class="fa fa-tag"></i> Synthetic trial balances with four series of equalities<br>
-                    <i class="fa fa-tag"></i> Analytic and synthetic chart of account – in electronic format<br>
-                    <i class="fa fa-tag"></i> “Maestru –sah” – in electronic format – a mandatory type of chart of
-                    accounts<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item1') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item2')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item3')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item4')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item5')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item6')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item7')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item8')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item9')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section1_item10')<br>
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>2. We prepare specific reports </h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section2_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
-                    <i class="fa fa-tag"></i> Half Annual Financial Statements <br>
-                    <i class="fa fa-tag"></i> Annual financial Statements <br>
-                    <i class="fa fa-tag"></i> Non – activity declaration <br>
-                    <i class="fa fa-tag"></i> Balance Sheet<br>
-                    <i class="fa fa-tag"></i> Profit and loss account<br>
-                    <i class="fa fa-tag"></i> Cash flow situation – the direct or/and indirect method<br>
-                    <i class="fa fa-tag"></i> Shareholders’ equity / owner’s equity <br>
-                    <i class="fa fa-tag"></i> Fixed assets report <br>
-                    <i class="fa fa-tag"></i> Specific report according to your requests <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item1') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item2') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item3') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item4')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item5')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item6')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item7') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item8') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section2_item9') <br>
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>3. We calculate and communicate you all the necessary
-                    details for payments that are referring to the following taxes:</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section3_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
-                    <i class="fa fa-tag"></i> Tax on profit <br>
-                    <i class="fa fa-tag"></i> Tax on revenues for micro companies<br>
-                    <i class="fa fa-tag"></i> Value added tax <br>
-                    <i class="fa fa-tag"></i> Tax on dividends<br>
-                    <i class="fa fa-tag"></i> Tax on revenues obtained from Romania by nonresidents<br>
-                    <i class="fa fa-tag"></i> Withholding at source of tax for independent activities for revenues paid by
-                    Beneficiary (revenues from intellectual property rights, from the sale of goods under a consignment
-                    regime, from activities carried out on the basis of agency contracts, commission contracts, or trade
-                    mandates, from activities carried out on the basis of civil contracts/conventions concluded as provided
-                    in the civil code, from technical (and) accounting expertise activities, judicial expertise and
-                    extrajudicial expertise)
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section3_item1') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section3_item2')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section3_item3') <br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section3_item4')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section3_item5')<br>
+                    <i class="fa fa-tag"></i> @lang('web.accounting_section3_item6')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>4. We calculate, elaborate and submit for you the
-                    following fiscal declarations: </h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section4_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
                     <i class="fa fa-tag"></i> VAT return – Form 300<br>
                     <i class="fa fa-tag"></i> Special VAT return – Form 301<br>
@@ -181,8 +167,7 @@
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>5. We offer you our support regarding specific activities
-                    such as:</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section5_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
                     <i class="fa fa-tag"></i> Checking the fiscal evidence for the Fiscal Administration and making the
                     necessary correction into their evidence<br>
@@ -204,8 +189,7 @@
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>6. We organize and provide the maintenance of the
-                    mandatory registers</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section6_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
                     <i class="fa fa-tag"></i> Accounting ledger<br>
                     <i class="fa fa-tag"></i> Inventory register<br>
@@ -220,8 +204,7 @@
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>7. We offer you assistance in primary accounting evidence:
-                </h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section7_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
                     <i class="fa fa-tag"></i> Assistance in drawing up and making the expense reports, the travel order
                     expense reports and other primary documents<br>
@@ -236,7 +219,7 @@
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>8. We assist you within checks</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.accounting_section8_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
                     <i class="fa fa-tag"></i> Assistance within tax authorities’ checks <br>
                     <i class="fa fa-tag"></i> Assistance within authorities’ checks on repayment of debts to the state’s
@@ -246,9 +229,7 @@
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>9. We develop dedicated software applications that allow us to
-                    solve your multiple demands with customized solutions
-                    <h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.accounting_section9_title')</h5>
             </div>
         </div>
         <!--END: Contabilitate-->

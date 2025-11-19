@@ -30,10 +30,10 @@
                         <div class="portfolio-client-info">
                             <ul class="list">
                                 <li>
-                                    <h4>Luminița Obaciu</h4>
+                                    <h4>@lang('web.payroll_luminita_name')</h4>
                                 </li>
                                 <li><span>
-                                        <e>Payroll Partner
+                                        <e>@lang('web.payroll_partner')
                                     </span></li>
                             </ul>
                         </div>
@@ -41,9 +41,7 @@
 
                     <div class="portfolio-client-description">
                         <p style="text-align:justify">
-                            Our relation with our business partners is based on trustworthiness, experience and constant
-                            support. That is why the outsourcing process of your payroll operations to us is the best
-                            solution - you have the guarantee of confidentiality, quality and readiness.
+                            @lang('web.payroll_description_full')
                         </p>
                     </div>
                     <hr class="space-xs">
@@ -68,138 +66,98 @@
 
         <div class="accordion toggle clean color-border-bottom col-md-8 col-md-offset-2">
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>1. A complete analysis of the particularities of your activity
-                    and their implications concerning the payroll process</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section1_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>2. Identifying the necessary information for the monthly
-                    required calculations and preparation of various reports, based on customer's needs</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section2_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>3. Breakdown of different types of specific revenues
-                    and bonuses</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.payroll_section3_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-                    <i class="fa fa-tag"></i> Types of bonuses</h5><br />
-                    <i class="fa fa-tag"></i> Types of benefits in kind</h5><br />
-                    <i class="fa fa-tag"></i> Delegation allowances beyond the limits regulated by public institutions
-                    </h5><br />
-                    <i class="fa fa-tag"></i> Aids</h5>
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section3_item1')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section3_item2')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section3_item3')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section3_item4')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>4. Breakdown of costs and fiscal implications for people with
-                    multiple contracts </h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section4_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>5. Adaptation of soft elements and programs in order to
-                    fulfill your requirements on special reporting issues</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section5_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>6. Composition and documentation of personnel files</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section6_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>7. Research and draw up personnel files for personal and
-                    supplementary deduction computation</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section7_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>8. Preparation and registration of supporting documents</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section8_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>9. Salary calculation</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.payroll_section9_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-
-                    <i class="fa fa-tag"></i> Drawing up salary payment file prepared for uploading into the bank (this
-                    activity involves receiving technical information from the bank)</h5><br />
-                    <i class="fa fa-tag"></i> Drawing up payroll</h5><br />
-                    <i class="fa fa-tag"></i> Recording the payroll statement - Drawing up accounting entries according
-                    to the specifications of the client – analytical accounts, cost sharing according to certain
-                    criteria (ex: cost centers)</h5><br />
-                    <i class="fa fa-tag"></i> Special calculations of payrolls (reverse computation, hard currency
-                    computation, fixed amount computation)</h5><br />
-                    <i class="fa fa-tag"></i> Drawing up flyers and forwarding each of them on the employees e-mail or
-                    forwarding the file to the client with all flyers</h5><br />
-                    <i class="fa fa-tag"></i> The payment management of net wages by drawing up payment documents and
-                    making payments in your name</h5>
-
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section9_item1')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section9_item2')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section9_item3')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section9_item4')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section9_item5')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section9_item6')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>10. Drawing up payment orders for fiscal and social
-                    obligations</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section10_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>11. Calculating, preparation and submission of all the
-                    necessary payroll related statements required by the Romanian legislature:</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.payroll_section11_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-
-                    <i class="fa fa-tag"></i> The declaration regarding the payment obligations of the social
-                    contributions, income tax and nominal evidence of the insured persons</h5><br />
-                    <i class="fa fa-tag"></i> The declaration regarding the payment obligations due to the State Budget
-                    regarding all payments for unemployed handicapped persons – Form 100</h5><br />
-                    <i class="fa fa-tag"></i> Drawing up and forwarding form 205 – informative declaration regarding
-                    withholding tax and earnings / loses, on beneficiaries</h5><br />
-                    <i class="fa fa-tag"></i> The 402 form - informative declaration regarding the income, from salary
-                    or assimilated to salaries, including the remuneration of directors and other persons treated as
-                    such, residents of other European Union member states, made in Romania</h5>
-
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section11_item1')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section11_item2')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section11_item3')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section11_item4')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>12. Drawing up and permanent upgrade of the register for
-                    employee evidence in electronic format</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section12_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>13. Forwarding the register for employee evidence in
-                    electronic format and the upgrades at the Labour Chamber</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section13_title_full')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>14. Assisting the client (from accounting and
-                    financial point of view) </h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.payroll_section14_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-
-                    <i class="fa fa-tag"></i> Assisting the client in drawing up labour contracts (from accounting and
-                    financial point of view)</h5><br />
-                    <i class="fa fa-tag"></i> Assisting the client in drawing up supporting documents regarding
-                    modifications of the contractual provisions (from accounting and financial point of view)</h5>
-
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section14_item1')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section14_item2')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>15. Drawing up certificates necessary to physical
-                    persons processed</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.payroll_section15_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-
-                    <i class="fa fa-tag"></i> Certificate for banks</h5><br />
-                    <i class="fa fa-tag"></i> Certificate necessary for establishing the child-raising allowance</h5>
-                    <br />
-                    <i class="fa fa-tag"></i> Medical certificate</h5>
-
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section15_item1')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section15_item2')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section15_item3')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>16. Drawing up and forwarding FNUASS requests of
-                    recovery and filling in medical certificates</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.payroll_section16_title_full')</h5>
                 <div class="ac-content" style="padding-left:2em">
-
-                    <i class="fa fa-tag"></i> Drawing up FNUASS requests of recovery</h5><br />
-                    <i class="fa fa-tag"></i> Forwarding FNUASS requests of recovery</h5><br />
-                    <i class="fa fa-tag"></i> Filling in the medical certificates (spaces for employer)</h5>
-
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section16_item1')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section16_item2')<br />
+                    <i class="fa fa-tag"></i> @lang('web.payroll_section16_item3')
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>17. Drawing up different reports</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section17_title')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>18. Filling in statistical reports with payroll information
-                </h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section18_title')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>19. Providing assistance during audit or fiscal control</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section19_title')</h5>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-tag"></i>20. Providing assistance in other activities regarding other
-                    fiscal authorities</h5>
+                <h5 class="ac-title"><i class="fa fa-tag"></i>@lang('web.payroll_section20_title')</h5>
             </div>
         </div>
         <!--END: Salarizare-->

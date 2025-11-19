@@ -6,23 +6,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="text-uppercase">Contact us!</h3><br> Do you want to meet us?<br /> Want to find out more
-                    about Soter & Partners’ services?<br />
-                    Please contact us using the contact form<br /> or any other contact information listed below.<br /> We
-                    will respond as soon as possible.</br></br>
-                    <strong>For any GDPR issue</br>
-                        <em>(General Data Protection Regulation)</em> </br>
-                        please send us an email at gdpr@soter.ro</strong>
+                    <h3 class="text-uppercase">@lang('web.contact_title')</h3><br> @lang('web.contact_description')<br />
+                    @lang('web.contact_description2')<br />
+                    @lang('web.contact_description3')</br></br>
+                    <strong>@lang('web.contact_gdpr_title')</br>
+                        <em>@lang('web.contact_gdpr_subtitle')</em> </br>
+                        @lang('web.contact_gdpr_email')</strong>
                     <div class="row m-t-40">
                         <div class="col-md-6">
                             <address>
-                                <strong>Soter SRL</strong><br>
-                                Mendeleev 28-30, corp C1
-                                <br>Sector 1
-                                <br>București
-                                <br>Tel: (+4) 021 316.80.75
-                                <br>Mobile: (+4) 0788.407.403
-                                <br>Email: office@soter.ro
+                                <strong>@lang('web.contact_office')</strong><br>
+                                @lang('web.contact_address')
+                                <br>@lang('web.contact_sector')
+                                <br>@lang('web.contact_city')
+                                <br>@lang('web.contact_tel') @lang('web.contact_tel_value')
+                                <br>@lang('web.contact_mobile') @lang('web.contact_mobile_value')
+                                <br>@lang('web.contact_email') @lang('web.contact_email_value')
                             </address>
                         </div>
                     </div>
@@ -43,14 +42,14 @@
                         role="form" method="post">
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                <label for="name">Name and surname</label>
+                                <label for="name">@lang('web.contact_form_name')</label>
                                 <input type="text" aria-required="true" name="widget-contact-form-name"
-                                    class="form-control required name" placeholder="Enter name and surname ">
+                                    class="form-control required name" placeholder="@lang('web.contact_form_name_placeholder')">
                             </div>
                             <div class="form-group col-sm-6">
-                                <label for="email">Email</label>
+                                <label for="email">@lang('web.contact_form_email')</label>
                                 <input type="email" aria-required="true" name="widget-contact-form-email"
-                                    class="form-control required email" placeholder="Enter email ...">
+                                    class="form-control required email" placeholder="@lang('web.contact_form_email_placeholder')">
                             </div>
                         </div>
                         <div>
@@ -69,19 +68,19 @@
                             <br>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message">@lang('web.contact_form_message')</label>
                             <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required"
-                                placeholder="Enter your message ..."></textarea>
+                                placeholder="@lang('web.contact_form_message_placeholder')"></textarea>
                         </div>
                         <input type="text" class="hidden" id="widget-contact-form-antispam"
                             name="widget-contact-form-antispam" value="blow" />
                         <div>
-                            <p>You&#39re passioned about your work and you want to join Soter & Partners team?<br>
-                                Send us <strong> <a href="https://soter.ro/cariere"> your resume! </a></strong></p>
+                            <p>@lang('web.contact_career_text')<br>
+                                <strong> <a href="{{ route('careers') }}"> @lang('web.contact_career_link') </a></strong></p>
                         </div>
 
                         <button class="btn btn-primary" type="submit" id="form-submit"><i
-                                class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+                                class="fa fa-paper-plane"></i>&nbsp;@lang('web.contact_form_submit')</button>
                     </form>
 
 
@@ -92,7 +91,7 @@
                                     success: function (text) {
                                         if (text.response == 'success') {
                                             $.notify({
-                                                message: "You have successfully send as a message! We get back to you quickly as possible!"
+                                                message: "@lang('web.contact_success_message')"
                                             }, {
                                                 type: 'success'
                                             });

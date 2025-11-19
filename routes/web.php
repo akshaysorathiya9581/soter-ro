@@ -126,6 +126,10 @@ Route::group([
         return view('main.news.blog03');
     })->name('blog03');
 
+    Route::get('/blog04', function () {
+        return view('main.news.blog04');
+    })->name('blog04');
+
     Route::get('/blog05', function () {
         return view('main.news.blog05');
     })->name('blog05');

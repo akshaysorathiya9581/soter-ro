@@ -6,6 +6,24 @@
         <p></p>
     </div>
     <!-- SECTION -->
+    <div class="hr-title hr-long center"><abbr>@lang('web.gdpr_title')</abbr> </div>
+    <section>
+        @includeFirst(
+            [
+                'main.policies.partials.gdpr_' . app()->getLocale(),
+                'main.policies.partials.gdpr_en',
+            ]
+        )
+    </section>
+@endsection
+@extends('main.layouts.master')
+
+@section('body')
+
+    <div>
+        <p></p>
+    </div>
+    <!-- SECTION -->
     <div class="hr-title hr-long center"><abbr>GDPR</abbr> </div>
     <section>
         <div class="container col-md-8 col-md-offset-2">

@@ -40,31 +40,27 @@
                     <a href="@lang('route.acasa')"><img
                             src="{{ url('assets/images/logo.png') }}" alt="ContasWeb"
                             class="logo"></a>
-                    <h1>Oops, 404!</h1>
+                    <h1>@lang('web.404_title')</h1>
                     <br />
                     <p>
-                        The page you requested could not be found, either contact your webmaster
-                        or try again.</br>
-                        Use your browser's <strong>Back</strong> button to navigate to the page
-                        you have previously come from.
+                        @lang('web.404_message_en')</br>
+                        @lang('web.404_message_en2')
                     </p>
                     <p>
-                        Pagina pe care ați solicitat-o nu a putut fi găsită, contactați webmasterul
-                        sau încercați din nou. </br>
-                        Utilizați butonul <strong> Înapoi </strong> al browserului dvs. pentru a naviga la pagină
-                        anterioară.
+                        @lang('web.404_message_ro')</br>
+                        @lang('web.404_message_ro2')
                     </p>
 
                     @if (Auth::check())
-                        <p><strong>Or you could just press this neat little button:</strong></p>
-                        <p><strong>Sau apăsați acest mic buton:</strong></p>
+                        <p><strong>@lang('web.404_or_button')</strong></p>
+                        <p><strong>@lang('web.404_sau_button')</strong></p>
                         <a href="{{  route('dashboard') }}" class="btn btn-large btn-info">
-                            <i class="glyphicon glyphicon-home"></i> Go To Dashboard
+                            <i class="glyphicon glyphicon-home"></i> @lang('web.404_go_dashboard')
                         </a>
                     @else
 
-                        <p><strong>Or you could just press this neat little button:</strong></p>
-                        <p><strong>Sau apăsați acest mic buton:</strong></p>
+                        <p><strong>@lang('web.404_or_button')</strong></p>
+                        <p><strong>@lang('web.404_sau_button')</strong></p>
                         <a href="/workshops" class="btn btn-large btn-info">
                             <i class="glyphicon glyphicon-home"></i> @lang('app.403_mesaj_buton_home')
                         </a>

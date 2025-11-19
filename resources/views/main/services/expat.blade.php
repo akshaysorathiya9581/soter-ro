@@ -30,21 +30,17 @@
                             <div class="portfolio-client-info">
                                 <ul class="list">
                                     <li>
-                                        <h4>Romulus Badea</h4>
+                                        <h4>@lang('web.expat_romulus_name')</h4>
                                     </li>
                                     <li><span>
-                                            <e>Tax Partner
+                                            <e>@lang('web.tax_partner')
                                         </span></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="portfolio-client-description">
                             <p style="text-align:justify">
-                                You’re looking for a trustworthy services partner for your business? The distinct advantage
-                                in collaborating with us for expatriate immigration and taxation is given by the experience
-                                in working for the global leaders in consulting services, easy access to a network of
-                                business partners and expertise of our professionals in our activity fields (accounting, tax
-                                consulting, human resources, audit and payroll)
+                                @lang('web.expat_description')
                             </p>
                         </div>
                         <hr class="space-xs">
@@ -63,33 +59,28 @@
 
         <div class="accordion toggle clean color-border-bottom col-md-8 col-md-offset-2">
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>1. Immigration services</h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.expat_section1_title')</h5>
                 <div class="ac-content" style="padding-left:2em ">
-                    <i class="fa fa-tag"></i> Obtaining short term and/or long term visa<br>
-                    <i class="fa fa-tag"></i> Obtaining work permits<br>
-                    <i class="fa fa-tag"></i> Obtaining residence permits/certificates of residence<br>
-                    <i class="fa fa-tag"></i> Entry/exit interviews with the expatriates<br>
-                    <i class="fa fa-tag"></i> Establishing fiscal residence<br>
-                    <i class="fa fa-tag"></i> Assessment of Romanian taxable base <br>
-                    <i class="fa fa-tag"></i> Obtaining or issuing annual tax payment confirmation<br>
-                    <i class="fa fa-tag"></i> Obtaining European certificates (A1, etc.)<br>
-                    <i class="fa fa-tag"></i> Registration/de-registration for social security purposes in Romania <br>
-                    <i class="fa fa-tag"></i> Monthly regular activities for Expatriates (income taxes and social charges
-                    computation, preparation of payment orders, etc.)
-
-                    <br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item1')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item2')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item3')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item4')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item5')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item6')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item7')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item8')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item9')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section1_item10')<br>
                 </div>
             </div>
             <div class="ac-item">
-                <h5 class="ac-title"><i class="fa fa-navicon"></i>2. Taxation services </h5>
+                <h5 class="ac-title"><i class="fa fa-navicon"></i>@lang('web.expat_section2_title')</h5>
                 <div class="ac-content" style="padding-left:2em">
-                    <i class="fa fa-tag"></i> Advice on structuring the international assignments and local requirements in
-                    the light of the United Europe accession<br>
-                    <i class="fa fa-tag"></i> Preparation and submission of the monthly personal income tax returns <br>
-                    <i class="fa fa-tag"></i> Monthly preparation and submission of social security statement<br>
-                    <i class="fa fa-tag"></i> Obtaining tax clearance certificates<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section2_item1')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section2_item2')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section2_item3')<br>
+                    <i class="fa fa-tag"></i> @lang('web.expat_section2_item4')<br>
                 </div>
-
             </div>
         </div>
     </section>

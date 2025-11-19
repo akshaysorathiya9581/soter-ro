@@ -15,29 +15,16 @@
                 <div class="post-item">
                     <div class="post-item-wrap">
                         <div class="post-item-description">
-                            <h2>Communication of invoices</h2>
+                            <h2>@lang('web.invoices_title')</h2>
                             <div>
                                 <hr>
                             </div>
-                            <p>In view of the contracts concluded between professional companies providing services under
-                                the trade name <em> <strong>Soter & Partners</strong></em> and the <em>
-                                    <strong>Beneficiaries - legal entities and individuals</strong></em>, we bring to their
-                                attention the following:</p>
+                            <p>{!! __('web.invoices_intro') !!}</p>
                             <div class="blockquote">
-                                <p>Within 5 days from the date of issuance of the tax invoices by the <em>
-                                        <strong>Contractor</strong></em>, they will be communicated to the <em>
-                                        <strong>Beneficiary</strong></em> by electronic means, by uploading them in the SPV
-                                    [Virtual Private Space],
-                                    according to Law no. 296/2023 and subsequent amendments, as well as by e-mail to the
-                                    address of the contact person responsible for the execution of this contract, duly
-                                    communicated to the <em> <strong>Contractor</strong></em>
-                                    (n.b. the e-mail address of the <em> <strong>Contractor</strong></em> will be: <em>
-                                        <strong>facturi@soter.ro</strong></em>).
+                                <p>{!! __('web.invoices_para1') !!}</p>
                             </div>
                             <div class="blockquote">
-                                <p>The communication of the tax invoices shall be deemed to be made by the <em>
-                                        <strong>Contractor </strong></em>to the <em> <strong>Beneficiary</strong></em> in
-                                    the manner indicated in the previous paragraph.</p>
+                                <p>{!! __('web.invoices_para2') !!}</p>
                             </div>
                         </div>
                     </div>

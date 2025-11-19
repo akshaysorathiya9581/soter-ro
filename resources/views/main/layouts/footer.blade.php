@@ -1,7 +1,7 @@
 <footer id="footer" class="footer-transparent">
 	<div class="footer-content">
 		<div class="container">
-			<h3 class="sol-sm-2 col-md-2 col-sm-offset-1 col-md-offset-1">Office</h3>
+			<h3 class="sol-sm-2 col-md-2 col-sm-offset-1 col-md-offset-1">@lang('web.footer_office')</h3>
 
 			<div class="row">
 				<div class="col-md-12">
@@ -9,17 +9,17 @@
 					<div class="col-md-4 jumbotron jumbotron-small jumbotron-transparent">
 
 						<ul class="list-large list-icons">
-							<a href="http://www.soter.ro/contact">
+							<a href="{{ route('contactus') }}">
 								<i class="fa fa-map-marker"></i>
-								<strong>Adresa:</strong> Mendeleev 28-30, corp C1
-								<br>Sector 1, București, 010365
+								<strong>@lang('web.footer_address')</strong> @lang('web.footer_address_value')
+								<br>@lang('web.footer_sector')
 							</a>
-							<li><i class="fa fa-phone"></i><strong>Tel:</strong> (+4) 021-316.80.75</li>
-							<li><i class="fa fa-phone"></i><strong>Tel:</strong> (+4) 0788.407.403/404</li>
+							<li><i class="fa fa-phone"></i><strong>@lang('web.contact_tel')</strong> @lang('web.contact_tel_value')</li>
+							<li><i class="fa fa-phone"></i><strong>@lang('web.contact_mobile')</strong> @lang('web.contact_mobile_value')</li>
 							<!--<li><i class="fa fa-phone"></i><strong>Fax:</strong> (+4) 021 404.34.44</li>-->
 							<li>
-								<i class="fa fa-envelope"></i><strong>Email:</strong> <a
-									href="mailto:office@soter.ro">office@soter.ro</a>
+								<i class="fa fa-envelope"></i><strong>@lang('web.contact_email')</strong> <a
+									href="mailto:office@soter.ro">@lang('web.contact_email_value')</a>
 							</li>
 						</ul>
 					</div>
@@ -132,7 +132,7 @@
 					<div class="copyright-text col-md-4 "> &copy;
 						<script>
 							document.write(new Date().getFullYear())
-						</script> Soter & Partners <a ref="http://www.soter.ro" href="_blank"></a>
+						</script> @lang('web.footer_copyright') <a ref="http://www.soter.ro" href="_blank"></a>
 					</div>
 					<div class="col-md-8 ">
 						<div class="social-icons social-icons-large social-icons-colored  col-md-8/3">
