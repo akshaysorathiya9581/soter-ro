@@ -8,9 +8,10 @@
             <ul>
                 <!-- consecventa -->
                 <li data-index="rs-80" data-transition="fade" data-slotamount="7" data-easein="default"
-                    data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/consecventa3.jpg')}}"
-                    data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"
-                    data-saveperformance="off" data-title="Intro" data-description="">
+                    data-easeout="default" data-masterspeed="1000"
+                    data-thumb="{{URL::asset('assets/images/slider/consecventa3.jpg')}}" data-rotate="0"
+                    data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
+                    data-title="Intro" data-description="">
                     <!-- MAIN IMAGE -->
                     <img src="{{URL::asset('assets/images/slider/consecventa3.jpg')}}" alt=""
                         data-lazyload="{{URL::asset('assets/images/slider/consecventa3.jpg')}}"
@@ -39,14 +40,15 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_consistency_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_consistency_desc')
                     </div>
                     <!-- Confidențialitate -->
                 <li data-index="rs-81" data-transition="fade" data-slotamount="7" data-easein="default"
                     data-easeout="default" data-masterspeed="1000"
-                    data-thumb="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}"
-                    data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"
-                    data-saveperformance="off" data-title="Intro" data-description="">
+                    data-thumb="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}" data-rotate="0"
+                    data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
+                    data-title="Intro" data-description="">
                     <!-- MAIN IMAGE -->
                     <img src="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}" alt=""
                         data-lazyload="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}"
@@ -75,7 +77,8 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_confidentiality_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_confidentiality_desc')
                     </div>
                     <!-- Inovare -->
                 <li data-index="rs-82" data-transition="fade" data-slotamount="7" data-easein="default"
@@ -111,10 +114,12 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_innovation_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_innovation_desc')
                     </div>
                 <li data-index="rs-83" data-transition="fade" data-slotamount="7" data-easein="default"
-                    data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
+                    data-easeout="default" data-masterspeed="1000"
+                    data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
                     data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
                     data-title="Intro" data-description="">
                     <!-- MAIN IMAGE -->
@@ -145,7 +150,8 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_quality_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_quality_desc')
                     </div>
                 </li>
             </ul>
@@ -321,19 +327,12 @@
     var tpj = jQuery;
     var revapi24;
     tpj(document).ready(function () {
-        console.log("Initializing Revolution Slider...");
-        console.log("jsFileLocation will be: {{asset('assets/js/')}}");
-        console.log("Extensions path will be: {{asset('assets/js/')}}revolutionextensions/");
-        
         if (tpj("#rev_slider_24_1").revolution == undefined) {
-            console.error("Revolution Slider plugin is not loaded!");
-            tpj("#rev_slider_24_1").html('<div style="margin:auto;line-height:40px;font-size:14px;color:#fff;padding:15px;background:#e74c3c;margin:20px 0px;">Error: Revolution Slider plugin is not loaded. Please check if all required JavaScript files are included.</div>').show();
+            revslider_showDoubleJqueryError("#rev_slider_24_1");
         } else {
-            console.log("Revolution Slider plugin found, initializing...");
             revapi24 = tpj("#rev_slider_24_1").show().revolution({
                 sliderType: "standard",
-                jsFileLocation: "{{asset('assets/js/')}}",
-                extensions: "/revolutionextensions/",
+                jsFileLocation: "/assets/vendor/rs-plugin/js/",
                 sliderLayout: "fullscreen",
                 dottedOverlay: "none",
                 delay: 4000,
@@ -411,25 +410,14 @@
                 hideSliderAtLimit: 0,
                 hideCaptionAtLimit: 0,
                 hideAllCaptionAtLilmit: 0,
-                debugMode: true,
+                debugMode: false,
                 fallbacks: {
                     simplifyAll: "off",
                     nextSlideOnWindowFocus: "off",
                     disableFocusListener: false,
                 }
             });
-            
-            // Check if slider initialized successfully
-            if (revapi24) {
-                console.log("Revolution Slider initialized successfully!");
-                tpj("#rev_slider_24_1").on("revolution.slide.onloaded", function() {
-                    console.log("Slider slide loaded!");
-                });
-            } else {
-                console.error("Failed to initialize Revolution Slider!");
-            }
         }
     }); /*ready*/
 
 </script>
-
