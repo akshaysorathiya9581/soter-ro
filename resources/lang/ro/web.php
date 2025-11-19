@@ -222,8 +222,79 @@ return [
     // ========== CAREERS PAGE ==========
     'careers_title' => 'Cariere',
 
-    // ========== ACTUALITATE PAGE ==========
+    // ========== NEWS/ACTUALITATE PAGE ==========
     'actualitate_title' => 'Actualitate',
+    'news_breadcrumb_home' => 'Acasă',
+    'news_breadcrumb_news' => 'Actualitate',
+    'news_read_more' => 'Mai mult...',
+    'news_load_more' => 'Load More Posts',
+    'news_category_expatriati' => 'Expatriați',
+    'news_category_salarizare' => 'Salarizare',
+    'news_category_fiscalitate' => 'Fiscalitate',
+    'news_category_contabilitate' => 'Contabilitate',
+    'news_explained_by' => 'a explicat',
+    'news_cite' => 'cite',
+    'news_old' => 'Vechi',
+    'news_new' => 'Noi',
+    
+    // ========== BLOG POSTS - Common Elements ==========
+    'blog_post_date' => 'Data',
+    'blog_post_category' => 'Categorie',
+    'blog_post_share' => 'Distribuie',
+    
+    // ========== BLOG 01 - Infrastructure Workers ==========
+    'blog01_title' => 'Peste 400 de kilometri noi de autostrada finanțați prin PNRR',
+    'blog01_date' => '2 Noiembrie 2021',
+    'blog01_category' => 'Expatriați',
+    'blog01_intro' => 'Cum poate acoperi România deficitul de muncitori din infrastructură pentru a atinge ținta PNRR-ul României a primit săptămâna trecută avizul Consiliului UE, iar prima tranșă din totalul de 29,2 milioane de euro ar putea ajunge în țara noastră în decembrie.',
+    
+    // ========== BLOG 02 - People with Disabilities ==========
+    'blog02_title' => 'Integrarea persoanelor cu dizabilități pe piața forței de muncă din România. Ce trebuie să știe companiile.',
+    'blog02_date' => '9 Noiembrie 2021',
+    'blog02_category' => 'Salarizare',
+    'blog02_intro' => 'Integrarea persoanelor cu dizabilități pe piața muncii reprezintă un proces esențial pentru dezvoltarea profesională și perfecționarea abilităților și calificărilor acestei categorii sociale.',
+    
+    // ========== BLOG 03 - SAF-T Implementation ==========
+    'blog03_title' => 'Implementarea SAF-T în România: raportare digitală în țara în care doar 17 % dintre companii emit facturi electronice',
+    'blog03_date' => '17 Noiembrie 2021',
+    'blog03_category' => 'Contabilitate',
+    'blog03_intro' => 'Fișierul Standard de Control Fiscal (SAF-T) devine obligatoriu începând cu anul 2022.',
+    
+    // ========== BLOG 04 - Unequal Work Schedule ==========
+    'blog04_title' => 'Programul de lucru inegal, tot mai frecvent întâlnit în pandemie – care sunt soluțiile specialiștilor pentru calculul drepturilor salariale',
+    'blog04_date' => '6 Decembrie 2021',
+    'blog04_category' => 'Salarizare',
+    'blog04_intro' => 'Pandemia de COVID-19 a făcut ca munca la distanță să devină o opțiune din ce în ce mai frecventă pentru angajați, iar programul clasic de opt ore să nu mai fie o constantă.',
+    
+    // ========== BLOG 05 - Fiscal Year 2021 Review ==========
+    'blog05_title' => 'Retrospectiva anului fiscal 2021: aproape un sfert dintre companii spun că vor avea un profit mai mare cu 20%, deși ANAF constată numeroase deficiențe fiscale',
+    'blog05_date' => '14 Decembrie 2021',
+    'blog05_category' => 'Fiscalitate',
+    'blog05_intro' => 'Pentru majoritatea companiilor anul contabil și fiscal se aproape de sfârșit, iar luna decembrie este un moment oportun de reflecție asupra tuturor activităților întreprinse în ultimele 12 luni din punct de vedere financiar.',
+    
+    // ========== BLOG 06 - Remote Work from Abroad ==========
+    'blog06_title' => 'Tendință: munca remote din străinătate. Cum pot implementa angajatorii politici eficiente privind telemunca',
+    'blog06_date' => '25 Ianuarie 2022',
+    'blog06_category' => 'Expatriați',
+    'blog06_intro' => 'Pentru majoritatea salariaților, munca de la distanță s-a transformat într-un stil de viață datorită beneficiilor cu care vine la pachet, iar flexibilitatea pe care o presupune a făcut posibilă inclusiv desfășurarea activității profesionale din străinătate.',
+    
+    // ========== BLOG 07 - Great Resignation ==========
+    'blog07_title' => 'Cum pot companiile să lupte cu „Marea Demisioneală": formarea profesională continuă, apreciată de peste 40% dintre angajați',
+    'blog07_date' => '31 Ianuarie 2022',
+    'blog07_category' => 'Salarizare',
+    'blog07_intro' => 'Flexibilizarea programului de lucru și posibilitatea muncii de la distanță generate de contextul pandemic au remodelat perspectiva salariaților asupra propriului loc de muncă, determinându-i să-și reconsidere prioritățile.',
+    
+    // ========== BLOG 08 - Digital Nomads ==========
+    'blog08_title' => 'Nomazii digitali, o posibilă soluție pentru criza forței de muncă',
+    'blog08_date' => '10 Martie 2022',
+    'blog08_category' => 'Expatriați',
+    'blog08_intro' => 'Conceptul de nomad digital nu este nou, însă pandemia a favorizat această plasare a muncii de la distanță drept o alternativă ușor de practicat, iar Banca Interamericană de Dezvoltare (IDB) estimează că până în 2050 vor exista 1 miliard de astfel de lucrători.',
+    
+    // ========== BLOG 09 - Financial Year Closing ==========
+    'blog09_title' => 'E-Seminarul - Închiderea exercițiului financiar 2021 & Deschiderea exercițiului financiar 2022',
+    'blog09_date' => '10 Martie 2022',
+    'blog09_category' => 'Contabilitate',
+    'blog09_intro' => 'Anul 2022 aduce modificari legate de închiderea exercițiului financiar 2021 de către operatorii economici în ceea ce privește întocmirea Situațiilor Financiare Anuale Individuale.',
 
     // ========== GDPR PAGE ==========
     'gdpren_title' => 'GDPR',
