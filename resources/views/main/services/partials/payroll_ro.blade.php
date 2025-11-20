@@ -5,10 +5,10 @@
             <div class="col-md-8">
                 <div class="portfolio-item design artwork">
                     <div class="portfolio-image effect social-links">
-                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Payroll_2017_m.png')}}" alt="">
+                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Salar_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-                                <a href="{{URL::asset('assets/images/our-services/Logo_B_Payroll_2017_m.png')}}"
+                                <a href="{{URL::asset('assets/images/our-services/Logo_B_Salar_2017_m.png')}}"
                                     data-lightbox-type="image"><i class="fa fa-expand"></i></a>
 
                                 <a href="#salarizare"><i class="fa fa-link"></i></a>

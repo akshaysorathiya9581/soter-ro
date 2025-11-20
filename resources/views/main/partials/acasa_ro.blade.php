@@ -43,7 +43,8 @@
                         style="z-index: 6; white-space: nowrap; line-height: 40px;">
                         @lang('web.home_slider_consistency_desc')
                     </div>
-                    <!-- Confidențialitate -->
+                </li>
+                <!-- Confidențialitate -->
                 <li data-index="rs-81" data-transition="fade" data-slotamount="7" data-easein="default"
                     data-easeout="default" data-masterspeed="1000"
                     data-thumb="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}" data-rotate="0"
@@ -80,7 +81,8 @@
                         style="z-index: 6; white-space: nowrap; line-height: 40px;">
                         @lang('web.home_slider_confidentiality_desc')
                     </div>
-                    <!-- Inovare -->
+                </li>
+                <!-- Inovare -->
                 <li data-index="rs-82" data-transition="fade" data-slotamount="7" data-easein="default"
                     data-easeout="default" data-masterspeed="1000"
                     data-thumb="{{URL::asset('assets/images/slider/inovare3.jpg')}}" data-rotate="0"
@@ -117,6 +119,7 @@
                         style="z-index: 6; white-space: nowrap; line-height: 40px;">
                         @lang('web.home_slider_innovation_desc')
                     </div>
+                </li>
                 <li data-index="rs-83" data-transition="fade" data-slotamount="7" data-easein="default"
                     data-easeout="default" data-masterspeed="1000"
                     data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
@@ -186,7 +189,6 @@
                         <img src="{{URL::asset('assets/images/our-services/Logo_B_Taxe_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-
                                 <a href="taxe"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
@@ -199,7 +201,6 @@
                         <img src="{{URL::asset('assets/images/our-services/Logo_B_Audit_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-
                                 <a href="auditr"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
@@ -216,7 +217,6 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
 
                 <div class=" col portfolio-item design artwork" style="width: 16%">
@@ -228,7 +228,6 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
 
                 <div class=" col portfolio-item design artwork" style="width: 16%">
