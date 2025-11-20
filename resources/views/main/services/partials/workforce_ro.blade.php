@@ -5,11 +5,11 @@
             <div class="col-md-8">
                 <div class="portfolio-item design artwork">
                     <div class="portfolio-image effect social-links">
-                        <img lang="ro" src="{{URL::asset('assets/images/our-services/07_workforce_import.png')}}"
+                        <img lang="ro" src="{{URL::asset('assets/images/our-services/07_import_forta_de_munca.png')}}"
                             alt="">
                         <div class="image-box-content">
                             <p>
-                                <a lang="ro" href="{{URL::asset('assets/images/our-services/07_workforce_import.png')}}"
+                                <a lang="ro" href="{{URL::asset('assets/images/our-services/07_import_forta_de_munca.png')}}"
                                     data-lightbox-type="image"><i class="fa fa-expand"></i></a>
                                 <a lang="ro" href="#workforce"><i class="fa fa-link"></i></a>
                             </p>

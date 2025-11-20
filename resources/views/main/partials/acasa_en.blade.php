@@ -8,9 +8,10 @@
             <ul>
                 <!-- consistency -->
                 <li data-index="rs-80" data-transition="fade" data-slotamount="7" data-easein="default"
-                    data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/consecventa3.jpg')}}"
-                    data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"
-                    data-saveperformance="off" data-title="Intro" data-description="">
+                    data-easeout="default" data-masterspeed="1000"
+                    data-thumb="{{URL::asset('assets/images/slider/consecventa3.jpg')}}" data-rotate="0"
+                    data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
+                    data-title="Intro" data-description="">
                     <!-- MAIN IMAGE -->
                     <img src="{{URL::asset('assets/images/slider/consecventa3.jpg')}}" alt=""
                         data-lazyload="{{URL::asset('assets/images/slider/consecventa3.jpg')}}"
@@ -39,14 +40,16 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_consistency_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_consistency_desc')
                     </div>
-                    <!-- Confidentiality -->
+                </li>
+                <!-- Confidentiality -->
                 <li data-index="rs-81" data-transition="fade" data-slotamount="7" data-easein="default"
                     data-easeout="default" data-masterspeed="1000"
-                    data-thumb="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}"
-                    data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"
-                    data-saveperformance="off" data-title="Intro" data-description="">
+                    data-thumb="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}" data-rotate="0"
+                    data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
+                    data-title="Intro" data-description="">
                     <!-- MAIN IMAGE -->
                     <img src="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}" alt=""
                         data-lazyload="{{URL::asset('assets/images/slider/confidentialitate3.jpg')}}"
@@ -75,9 +78,11 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_confidentiality_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_confidentiality_desc')
                     </div>
-                    <!-- Innovation -->
+                </li>
+                <!-- Innovation -->
                 <li data-index="rs-82" data-transition="fade" data-slotamount="7" data-easein="default"
                     data-easeout="default" data-masterspeed="1000"
                     data-thumb="{{URL::asset('assets/images/slider/inovare3.jpg')}}" data-rotate="0"
@@ -111,10 +116,13 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_innovation_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_innovation_desc')
                     </div>
+                </li>
                 <li data-index="rs-83" data-transition="fade" data-slotamount="7" data-easein="default"
-                    data-easeout="default" data-masterspeed="1000" data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
+                    data-easeout="default" data-masterspeed="1000"
+                    data-thumb="{{URL::asset('assets/images/slider/calitate4.jpg')}}" data-rotate="0"
                     data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"
                     data-title="Intro" data-description="">
                     <!-- MAIN IMAGE -->
@@ -145,7 +153,8 @@
                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
                         data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                         data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                        style="z-index: 6; white-space: nowrap; line-height: 40px;">@lang('web.home_slider_quality_desc')
+                        style="z-index: 6; white-space: nowrap; line-height: 40px;">
+                        @lang('web.home_slider_quality_desc')
                     </div>
                 </li>
             </ul>
@@ -166,10 +175,10 @@
             <div class="row" data-lightbox-type="gallery">
                 <div class="col  portfolio-item design artwork" style="width: 16%">
                     <div class="portfolio-image effect social-links">
-                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Contab_2017_m.png')}}" alt="">
+                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Account_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-                                <a href="contabilitate"><i class="fa fa-link"></i></a>
+                                <a href="/accounting"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
                     </div>
@@ -177,15 +186,13 @@
 
                 <div class=" col  portfolio-item design beauty" style="width: 16%">
                     <div class="portfolio-image effect social-links">
-                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Taxe_2017_m.png')}}" alt="">
+                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Tax_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-
-                                <a href="taxe"><i class="fa fa-link"></i></a>
+                                <a href="/tax"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
                     </div>
-
                 </div>
 
                 <div class=" col portfolio-item design beauty" style="width: 16%">
@@ -193,20 +200,18 @@
                         <img src="{{URL::asset('assets/images/our-services/Logo_B_Audit_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-
-                                <a href="auditr"><i class="fa fa-link"></i></a>
+                                <a href="/audit"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col  portfolio-item design artwork" style="width: 16%">
                     <div class="portfolio-image effect social-links">
-                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Expatriati_2017_m.png')}}" alt="">
+                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Expat_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-                                <a href="expatriati"><i class="fa fa-link"></i></a>
+                                <a href="/expat"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
                     </div>
@@ -215,10 +220,10 @@
 
                 <div class=" col portfolio-item design artwork" style="width: 16%">
                     <div class="portfolio-image effect social-links">
-                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Salar_2017_m.png')}}" alt="">
+                        <img src="{{URL::asset('assets/images/our-services/Logo_B_Payroll_2017_m.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-                                <a href="salarizare"><i class="fa fa-link"></i></a>
+                                <a href="/payroll"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
                     </div>
@@ -227,10 +232,10 @@
 
                 <div class=" col portfolio-item design artwork" style="width: 16%">
                     <div class="portfolio-image effect social-links">
-                        <img src="{{URL::asset('assets/images/our-services/07_import_forta_de_munca.png')}}" alt="">
+                        <img src="{{URL::asset('assets/images/our-services/07_workforce_import.png')}}" alt="">
                         <div class="image-box-content">
                             <p>
-                                <a href="importfm"><i class="fa fa-link"></i></a>
+                                <a href="/workforce"><i class="fa fa-link"></i></a>
                             </p>
                         </div>
                     </div>
@@ -415,4 +420,3 @@
     }); /*ready*/
 
 </script>
-

@@ -5,11 +5,11 @@
             <div class="col-md-8">
                 <div class="portfolio-item design artwork">
                     <div class="portfolio-image effect social-links">
-                        <img lang="ro" src="{{URL::asset('assets/images/our-services/Logo_B_Expat_2017_m.png')}}"
+                        <img lang="ro" src="{{URL::asset('assets/images/our-services/Logo_B_Expatriati_2017_m.png')}}"
                             alt="">
                         <div class="image-box-content">
                             <p>
-                                <a lang="ro" href="{{URL::asset('assets/images/our-services/Logo_B_Expat_2017_m.png')}}"
+                                <a lang="ro" href="{{URL::asset('assets/images/our-services/Logo_B_Expatriati_2017_m.png')}}"
                                     data-lightbox-type="
                                             image"><i class="fa fa-expand"></i></a>
                                 <a lang="ro" href="#expatriati"><i class="fa fa-link"></i></a>
