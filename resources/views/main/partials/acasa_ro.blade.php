@@ -254,7 +254,7 @@
                 <div class="counter">
 
                     <span data-speed="3000" data-refresh-interval="10"
-                        data-to={{$numar1 = DB::table('numbers')->first()->clienti_multumiti}} data-from="0"
+                        data-to="1000" data-from="0"
                         id="clienti_multumiti"></span>
                 </div>
                 <h6>@lang('web.home_satisfied_clients')</h6>
@@ -265,7 +265,7 @@
             <div class="icon-box effect center clean">
                 <div class="icon"> <a href="#"><i class="fa fa-calendar"></i></a> </div>
                 <div class="counter"> <span data-speed="1500" data-refresh-interval="50"
-                        data-to={{$numar1 = DB::table('numbers')->first()->numar_declaratii}} data-from="0"
+                        data-to="5000" data-from="0"
                         data-seperator="true" id="declaratii"></span> </div>
                 <h6>@lang('web.home_fiscal_declarations')</h6>
                 <p>@lang('web.home_fiscal_declarations_desc')</p>
@@ -275,7 +275,7 @@
             <div class="icon-box effect center clean">
                 <div class="icon"> <a href="#"><i class="fa fa-clock-o"></i></a> </div>
                 <div class="counter"> <span data-speed="2500" data-refresh-interval="50"
-                        data-to={{$numar1 = DB::table('numbers')->first()->numar_emailuri}} data-from="0"
+                        data-to="10000" data-from="0"
                         data-seperator="true" id="emailuri"></span> </div>
                 <h6>@lang('web.home_emails_sent')</h6>
                 <p>@lang('web.home_emails_sent_desc')</p>
